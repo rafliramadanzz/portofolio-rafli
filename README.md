@@ -15,5 +15,5 @@ jadwal belajar
 - CSS3 (Flexbox dan media query)
 - Git dan GitHub
 ## Tautan
-- Website: menyusul setelah *deploy* ke Vercel
+- https://portofolio-rafli-ramadani.vercel.app
 - Dibuat oleh: M.Rafli Ramadani, SMK 1 Kota Pasuruan Mitra
