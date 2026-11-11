@@ -1,73 +1,137 @@
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>M.Rafli Ramadani | Proyek</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/main.js" defer></script>
+   <script src="js/latihan.js" defer></script>
+    <script src="js/logika.js" defer></script>
+    <script src="js/kalkulator.js" defer></script>
+  
 </head>
+
 <body>
+
   <header>
     <div class="container navbar">
+
       <h1>M.Rafli Ramadani</h1>
+
       <nav class="menu-laptop">
         <ul>
           <li><a href="index.html">Beranda</a></li>
           <li><a href="proyek.html">Proyek</a></li>
           <li><a href="kontak.html">Kontak</a></li>
+          <li><a href="kantinsekolah.html">Kantin Sekolah</a></li>
+           <li><a href="kalkulator.html">Kalkulator</a></li>
         </ul>
       </nav>
-      <!-- Tantangan: menu ponsel yang bisa dibuka-tutup -->
+
       <details class="menu-ponsel">
         <summary>Menu</summary>
+
         <nav>
           <ul>
             <li><a href="index.html">Beranda</a></li>
             <li><a href="proyek.html">Proyek</a></li>
             <li><a href="kontak.html">Kontak</a></li>
+            <li><a href="kantinsekolah.html">Kantin Sekolah</a></li>
+             <li><a href="kalkulator.html">Kalkulator</a></li>
           </ul>
         </nav>
       </details>
+
+      <button type="button" id="tombol-tema">
+        Mode Gelap
+      </button>
+
     </div>
   </header>
 
   <main>
     <div class="container">
+
       <section>
+
         <h2>Proyek Saya</h2>
-        <p>Kumpulan hasil belajar saya di Kelas Industri UBIG.</p>
 
-        <div class="daftar-kartu">
-          <article class="kartu">
-            <h3>Halaman Profil Pertama</h3>
-            <img src="img/proyek-profil.jpeg" alt="Tangkapan layar halaman profil M.Rafli Ramadani" width="280">
-            <p>Halaman web pertama saya, berisi perkenalan, foto, hobi, cita-cita, keahlian, dan kontak. Dibuat dengan HTML dasar di Minggu 01.</p>
-          </article>
+        <p>
+          Kumpulan hasil belajar saya di Kelas Industri UBIG.
+        </p>
 
-          <article class="kartu">
-            <h3>Form Kontak</h3>
-            <img src="img/proyek-kontak.jpeg" alt="Tangkapan layar form kontak berisi nama, email, nomor HP, keperluan, dan pesan" width="280">
-            <p>Form untuk menghubungi saya. Setiap isian memiliki label dan wajib diisi, sehingga browser menolak form yang masih kosong.</p>
-          </article>
+        <!-- Filter kategori proyek -->
 
-          <article class="kartu">
-            <h3>Tabel Jadwal Belajar</h3>
-            <img src="img/proyek-jadwal.png" alt="Tangkapan layar tabel jadwal belajar mandiri" width="280">
-            <p>Tabel berisi jadwal belajar mandiri saya setiap minggu, disusun dengan thead dan tbody.</p>
-          </article>
+        <div class="filter" aria-label="Filter kategori proyek">
+
+          <button
+            type="button"
+            class="tombol-filter aktif"
+            id="filter-semua">
+            Semua
+          </button>
+
+          <button
+            type="button"
+            class="tombol-filter"
+            id="filter-html">
+            HTML
+          </button>
+
+          <button
+            type="button"
+            class="tombol-filter"
+            id="filter-css">
+            CSS
+          </button>
+
+          <button
+            type="button"
+            class="tombol-filter"
+            id="filter-javascript">
+            JavaScript
+          </button>
+
         </div>
+
+        <!-- Jumlah proyek -->
+
+        <p id="jumlah-proyek" aria-live="polite"></p>
+
+        <!-- Daftar proyek dari JavaScript -->
+
+        <div class="daftar-kartu" id="daftar-proyek"></div>
+
       </section>
 
-      <!-- FAQ dengan details dan summary -->
+      <!-- FAQ -->
+
       <section class="kartu">
+
         <h2>Pertanyaan yang Sering Diajukan</h2>
+
         <details>
-          <summary>Bahasa apa yang dipakai untuk membuat proyek ini?</summary>
-          <p>Semua proyek di halaman ini dibuat dengan HTML. Tampilannya akan saya rapikan dengan CSS mulai Minggu 03.</p>
+          <summary>
+            Bahasa apa yang dipakai untuk membuat proyek ini?
+          </summary>
+
+          <p>
+            Proyek di halaman ini dibuat menggunakan HTML,
+            CSS, dan JavaScript. Pilih tombol kategori di atas
+            untuk melihat proyek berdasarkan kategorinya.
+          </p>
         </details>
+
         <details>
           <summary>Apakah saya menerima pesanan pembuatan website?</summary>
           <p>Belum, saya masih belajar. Namun kamu tetap boleh menghubungi saya melalui halaman Kontak.</p>
@@ -82,5 +146,6 @@
       <a href="https://www.youtube.com/" target="_blank">YouTube</a></p>
     <p>&copy; 2026 M.Rafli Ramadani. Dibuat di Kelas Industri UBIG.</p>
   </footer>
+
 </body>
 </html>

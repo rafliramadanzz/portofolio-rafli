@@ -41,6 +41,46 @@ a {
   color: #7dd3fc;
 }
 
+/* MODE GELAP */
+body.gelap {
+  background-color: #121827;
+  color: #e2e8f0;
+}
+
+body.gelap h1,
+body.gelap h2,
+body.gelap h3 {
+  color: #ffffff;
+}
+
+body.gelap .kartu {
+  background-color: #1e293b;
+  color: #e2e8f0;
+  border-color: #475569;
+}
+
+body.gelap p,
+body.gelap li,
+body.gelap label {
+  color: #e2e8f0;
+}
+
+body.gelap input,
+body.gelap textarea,
+body.gelap select {
+  background-color: #1e293b;
+  color: #ffffff;
+  border-color: #475569;
+}
+
+body.gelap th {
+  background-color: #334155;
+}
+
+body.gelap td {
+  border-color: #475569;
+}
+
 /* 3. Wadah, header, dan menu */
 .container {
   max-width: 1100px;
@@ -262,3 +302,35 @@ footer a {
     font-size: 2.75rem;
   }
 }
+/* 10. Filter proyek */
+.filter {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.tombol-filter {
+  padding: 0.5rem 1rem;
+  border: 2px solid #1D3557;
+  background-color: #c7e9ff;
+  color: #1D3557;
+}
+
+.tombol-filter.aktif {
+  background-color: #1D3557;
+  color: #ffffff;
+}
+
+body.gelap .tombol-filter {
+  background-color: #1e293b;
+  color: #ffffff;
+  border-color: #64748b;
+}
+
+body.gelap .tombol-filter.aktif {
+  background-color: #38bdf8;
+  color: #121827;
+}
+
+

@@ -1,26 +1,42 @@
+
 <!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <title>M.Rafli Ramadani | Kontak</title>
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="css/style.css">
+
+  <script src="js/main.js" defer></script>
+   <script src="js/latihan.js" defer></script>
+    <script src="js/logika.js" defer></script>
+    <script src="js/kalkulator.js" defer></script>
 </head>
+
 <body>
+
   <header>
     <div class="container navbar">
+
       <h1>M.Rafli Ramadani</h1>
+
       <nav class="menu-laptop">
         <ul>
           <li><a href="index.html">Beranda</a></li>
           <li><a href="proyek.html">Proyek</a></li>
           <li><a href="kontak.html">Kontak</a></li>
+          <li><a href="kantinsekolah.html">Kantin Sekolah</a></li>
+           <li><a href="kalkulator.html">Kalkulator</a></li>
         </ul>
       </nav>
-      <!-- Tantangan: menu ponsel yang bisa dibuka-tutup -->
+
       <details class="menu-ponsel">
         <summary>Menu</summary>
         <nav>
@@ -28,55 +44,144 @@
             <li><a href="index.html">Beranda</a></li>
             <li><a href="proyek.html">Proyek</a></li>
             <li><a href="kontak.html">Kontak</a></li>
+            <li><a href="kantinsekolah.html">Kantin Sekolah</a></li>
+             <li><a href="kalkulator.html">Kalkulator</a></li>
           </ul>
         </nav>
       </details>
+
+      <button type="button" id="tombol-tema">
+        Mode Gelap
+      </button>
+
     </div>
   </header>
 
   <main>
     <div class="container">
+
       <section class="kartu">
+
         <h2>Hubungi Saya</h2>
-        <p>Punya pertanyaan atau ingin bekerja sama? Isi form berikut.</p>
+
+        <p>
+          Punya pertanyaan atau ingin bekerja sama?
+          Isi form berikut.
+        </p>
 
         <form>
+
           <p>
             <label for="nama">Nama lengkap</label><br>
-            <input type="text" id="nama" name="nama" placeholder="Contoh: M.Rafli Ramadani" required>
+
+            <input
+              type="text"
+              id="nama"
+              name="nama"
+              placeholder="Contoh: M. Rafli Ramadani"
+              required
+            >
           </p>
+
           <p>
             <label for="email">Email</label><br>
-            <input type="email" id="email" name="email" placeholder="nama@gmail.com" required>
+
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="nama@gmail.com"
+              required
+            >
           </p>
+
           <p>
             <label for="hp">Nomor HP</label><br>
-            <input type="tel" id="hp" name="hp" placeholder="081234567890" required>
+
+            <input
+              type="tel"
+              id="hp"
+              name="hp"
+              placeholder="081234567890"
+              required
+            >
           </p>
+
           <p>
             <label for="keperluan">Keperluan</label><br>
+
             <select id="keperluan" name="keperluan" required>
+
               <option value="">-- Pilih keperluan --</option>
-              <option value="bertanya">Bertanya</option>
-              <option value="kerja-sama">Kerja sama proyek</option>
-              <option value="lainnya">Lainnya</option>
+
+              <option value="bertanya">
+                Bertanya
+              </option>
+
+              <option value="kerja-sama">
+                Kerja sama proyek
+              </option>
+
+              <option value="lainnya">
+                Lainnya
+              </option>
+
             </select>
           </p>
+
           <p>
             <label for="pesan">Pesan</label><br>
-            <textarea id="pesan" name="pesan" rows="5" cols="40" placeholder="Tulis pesanmu di sini" required></textarea>
+
+            <textarea
+              id="pesan"
+              name="pesan"
+              rows="5"
+              cols="40"
+              maxlength="300"
+              placeholder="Tulis pesanmu di sini"
+              required
+            ></textarea>
+
+            <span id="hitung-karakter" aria-live="polite">
+              0/300 karakter
+            </span>
+
           </p>
-          <button type="submit">Kirim Pesan</button>
+
+          <button type="submit">
+            Kirim Pesan
+          </button>
+
         </form>
+
       </section>
+
     </div>
   </main>
 
   <footer>
-    <p>Kontak: <a href="mailto:rafliramadani312011@gmail.com">rafliramadani312011@gmail.com</a> |
-      <a href="https://github.com/" target="_blank">GitHub</a> |
-      <a href="https://www.youtube.com/" target="_blank">YouTube</a></p>
-    <p>&copy; 2026 M.Rafli Ramadani. Dibuat di Kelas Industri UBIG.</p>
+
+    <p>
+      Kontak:
+      <a href="mailto:rafliramadani312011@gmail.com">
+        rafliramadani312011@gmail.com
+      </a>
+      |
+      <a href="https://github.com/" target="_blank">
+        GitHub
+      </a>
+      |
+      <a href="https://www.youtube.com/" target="_blank">
+        YouTube
+      </a>
+    </p>
+
+    <p>
+      &copy; 2026 M.Rafli Ramadani.
+      Dibuat di Kelas Industri UBIG.
+    </p>
+
   </footer>
+
 </body>
 </html>
