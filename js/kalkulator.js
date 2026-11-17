@@ -25,37 +25,43 @@ const inputUAS = document.querySelector("#nilaiUAS");
 const btnHitung = document.querySelector("#btnHitung");
 const hasil = document.querySelector("#hasil");
 
-// Menjalankan kalkulator saat tombol diklik
-btnHitung.addEventListener("click", function () {
-    const tugas = Number(inputTugas.value);
-    const uts = Number(inputUTS.value);
-    const uas = Number(inputUAS.value);
+// Memeriksa apakah elemen kalkulator tersedia
+if (btnHitung && inputTugas && inputUTS && inputUAS && hasil) {
 
-    // Memeriksa apakah semua nilai sudah diisi
-    if (
-        inputTugas.value === "" ||
-        inputUTS.value === "" ||
-        inputUAS.value === ""
-    ) {
-        hasil.textContent = "Masukkan semua nilai terlebih dahulu!";
-        return;
-    }
+    // Menjalankan kalkulator saat tombol diklik
+    btnHitung.addEventListener("click", function () {
 
-    // Memeriksa rentang nilai
-    if (
-        tugas < 0 || tugas > 100 ||
-        uts < 0 || uts > 100 ||
-        uas < 0 || uas > 100
-    ) {
-        hasil.textContent = "Nilai harus berada di antara 0 sampai 100!";
-        return;
-    }
+        const tugas = Number(inputTugas.value);
+        const uts = Number(inputUTS.value);
+        const uas = Number(inputUAS.value);
 
-    // Menghitung rata-rata dan predikat
-    const rataRata = hitungRataRatakalkulator(tugas, uts, uas);
-    const nilaiPredikat = predikatkalkulator(rataRata);
+        // Memeriksa apakah semua nilai sudah diisi
+        if (
+            inputTugas.value === "" ||
+            inputUTS.value === "" ||
+            inputUAS.value === ""
+        ) {
+            hasil.textContent = "Masukkan semua nilai terlebih dahulu!";
+            return;
+        }
 
-    // Menampilkan hasil
-    hasil.textContent =
-        `Rata-rata: ${rataRata.toFixed(2)} | Predikat: ${nilaiPredikat}`;
-});
+        // Memeriksa rentang nilai
+        if (
+            tugas < 0 || tugas > 100 ||
+            uts < 0 || uts > 100 ||
+            uas < 0 || uas > 100
+        ) {
+            hasil.textContent = "Nilai harus berada di antara 0 sampai 100!";
+            return;
+        }
+
+        // Menghitung rata-rata dan predikat
+        const rataRata = hitungRataRatakalkulator(tugas, uts, uas);
+        const nilaiPredikat = predikatkalkulator(rataRata);
+
+        // Menampilkan hasil
+        hasil.textContent =
+            `Rata-rata: ${rataRata.toFixed(2)} | Predikat: ${nilaiPredikat}`;
+    });
+
+}
