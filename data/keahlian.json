@@ -1,0 +1,22 @@
+[
+  {
+    "nama": "HTML",
+    "level": "Menengah"
+  },
+  {
+    "nama": "CSS",
+    "level": "Menengah"
+  },
+  {
+    "nama": "Git dan GitHub",
+    "level": "Dasar"
+  },
+  {
+    "nama": "Desain poster dengan Canva",
+    "level": "Mahir"
+  },
+  {
+    "nama": "JavaScript",
+    "level": "Dasar"
+  }
+]

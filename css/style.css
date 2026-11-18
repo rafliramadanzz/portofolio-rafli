@@ -333,4 +333,21 @@ body.gelap .tombol-filter.aktif {
   color: #121827;
 }
 
+#tombol-tema {
+  background-color: #063568;
+  color: white;
 
+  border: 2px solid #64c5ff;
+  border-radius: 8px;
+
+  padding: 14px 28px;
+  font-size: 16px;
+  font-weight: bold;
+
+  cursor: pointer;
+  transition: 0.3s;
+}
+#tombol-tema:hover {
+  background-color: #0b4b85;
+  border-color: #ffffff;
+}
