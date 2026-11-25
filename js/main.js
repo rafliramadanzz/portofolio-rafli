@@ -204,3 +204,13 @@ async function ambilRepo() {
 if (daftarRepo) {
   ambilRepo();
 }
+// tombol ke atas
+const tombolAtas = document.querySelector("#tombol-atas");
+if (tombolAtas){
+  tombolAtas.addEventListener("click", function () {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    })
+  })
+}

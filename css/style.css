@@ -351,3 +351,17 @@ body.gelap .tombol-filter.aktif {
   background-color: #0b4b85;
   border-color: #ffffff;
 }
+/* 11. tombol atas */
+.tombol-atas {
+  background-color: transparent;
+  border: 2px solid #38bdf8;
+  color: #38bdf8;
+  margin-top: 16px;
+  padding: 8px 16px;
+  border-radius: 16px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+.tombol-atas:hover {
+  background-color: rgba(255, 255, 255, 0.15);
+}

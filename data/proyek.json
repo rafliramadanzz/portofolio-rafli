@@ -2,42 +2,42 @@
   {
     "judul": "Halaman Profil Pertama",
     "kategori": "HTML",
-    "gambar": "img/halaman-beranda.png",
+    "gambar": "img/halaman-beranda.webp",
     "alt": "Tangkapan layar halaman profil M.Rafli Ramadani",
     "deskripsi": "Halaman web pertama saya, dibuat dengan HTML."
   },
   {
     "judul": "Form Kontak",
     "kategori": "HTML",
-    "gambar": "img/kontak.png",
+    "gambar": "img/kontak.webp",
     "alt": "Tangkapan layar form kontak berisi lima isian",
     "deskripsi": "Form dengan label dan validasi bawaan browser."
   },
   {
     "judul": "Tabel Jadwal Belajar",
     "kategori": "HTML",
-    "gambar": "img/proyek-jadwal.png",
+    "gambar": "img/proyek-jadwal.webp",
     "alt": "Tangkapan layar tabel jadwal belajar mandiri",
     "deskripsi": "Jadwal belajar mingguan dengan thead dan tbody."
   },
   {
     "judul": "Portofolio Responsif",
     "kategori": "CSS",
-    "gambar": "img/portofolio.jpeg",
+    "gambar": "img/portofolio.webp",
     "alt": "Tangkapan layar portofolio di ponsel dan laptop",
     "deskripsi": "Rapi di ponsel, tablet, dan laptop dengan Flexbox."
   },
   {
     "judul": "Kalkulator Nilai Rapor",
     "kategori": "JavaScript",
-    "gambar": "img/kalkulator.png",
+    "gambar": "img/kalkulator.webp",
     "alt": "Tangkapan layar hasil kalkulator nilai di Console",
     "deskripsi": "Rata-rata dan predikat nilai dengan fungsi JavaScript."
   },
   {
     "judul": "Game Soal Logika",
     "kategori": "JavaScript",
-    "gambar": "img/proyek logika.png",
+    "gambar": "img/proyek logika.webp",
     "alt": "Tangkapan layar hasil uji game soal logika",
     "deskripsi": "Game soal logika yang masing-masing diuji 3 masukan."
   }
