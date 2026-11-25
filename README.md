@@ -1,7 +1,7 @@
 # Portofolio M.Rafli Ramadani
-Website portofolio pribadi yang saya buat di Kelas Industri UBIG
-(Paket 1, Minggu 01 sampai 05).
-Website ini tampil rapi di ponsel, tablet, dan laptop.
+Website portofolio pribadi yang saya buat di Kelas Industri UBIG (Paket 1, Minggu 01 sampai 09).
+
+Website ini menampilkan profil, keahlian, proyek, dan informasi kontak saya. Website dirancang responsif agar nyaman digunakan melalui ponsel, tablet, maupun laptop
 ## Tampilan
 ![Tampilan beranda portofolio](img/portofolio-rafli.png)
 ## Fitur
@@ -17,6 +17,13 @@ jadwal belajar
 - JSON
 - Git dan GitHub
 - GitHub API
+## Pengujian Lightouse
+Pengujian website dilakukan menggunakan Lighthouse untuk memeriksa:
+
+- Performance
+- Accessibility
+- Best Practices
+- SEO
 ## Tautan
 - https://portofolio-rafli-ramadani.vercel.app
 - Dibuat oleh: M.Rafli Ramadani, SMK 1 Kota Pasuruan Mitra
