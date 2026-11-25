@@ -24,6 +24,13 @@ Pengujian website dilakukan menggunakan Lighthouse untuk memeriksa:
 - Accessibility
 - Best Practices
 - SEO
+## Hasil Pengujian lighthouse
+Pengujian dilakukan menggunakan Lighthouse pada tiga halaman website.
+
+Halaman	Performance	Accessibility	Best Practices SEO
+- | Beranda	| 99	| 100 |	100 |	91 |
+- | Proyek	| 81	| 95	| 96	| 91 |
+- | Kontak	| 100	| 100	| 96	| 90 |
 ## Tautan
 - https://portofolio-rafli-ramadani.vercel.app
 - Dibuat oleh: M.Rafli Ramadani, SMK 1 Kota Pasuruan Mitra
