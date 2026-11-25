@@ -12,8 +12,11 @@ jadwal belajar
 - Tampilan responsif dengan Flexbox dan *media query*
 ## Teknologi
 - HTML5
-- CSS3 (Flexbox dan media query)
+- CSS3 (Flexbox dan media query, dan CSS variables)
+- JavaScript
+- JSON
 - Git dan GitHub
+- GitHub API
 ## Tautan
 - https://portofolio-rafli-ramadani.vercel.app
 - Dibuat oleh: M.Rafli Ramadani, SMK 1 Kota Pasuruan Mitra
